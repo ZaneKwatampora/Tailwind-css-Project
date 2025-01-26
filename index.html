@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/2299a05217.js" crossorigin="anonymous"></script>
+    <title>Project Web</title>
+</head>
+
+
+<!-- NAVBAR -->
+
+<body>
+    <header class="fixed  top-0 w-full bg-white text-black flex  align-center">
+        <!-- Business Name -->
+        <div class="text-pink-50 text-3xl font-semibold bg-blue-500 pl-17 p-6 blur-none ">
+            <a href="#"></a>
+            <a href="#">Stratos</a>
+        </div>
+        <!-- ACTUAL NAVBAR -->
+        <nav class="container max-w-screen-xl pl-20 px-4 bg-white-800 flex justify-between items-center  ">
+            <div class="font-semibold">
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#home"
+                            class="border-none mr-4 hover:text-blue-600 hover:border-solid border-blue-600 border-t-3 pt-7 ">Home</a>
+                    </li>
+                    <li><a href="#about"
+                            class="border-none mr-4 hover:text-blue-600 hover:border-solid border-blue-600 border-t-3 pt-7 ">About</a>
+                    </li>
+                    <li><a href="#services"
+                            class="border-none mr-4 hover:text-blue-600 hover:border-solid border-blue-600 border-t-3 pt-7 ">Services</a>
+                    </li>
+                    <li><a href="#nasa"
+                            class="border-none mr-4 hover:text-blue-600 hover:border-solid border-blue-600 border-t-3 pt-7 ">NASA</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Contact Nav -->
+            <img src="https://static-00.iconduck.com/assets.00/phone-icon-1024x1024-bn4mirqi.png"
+                class="w-12 h-12 ml-120" alt="phone">
+            <div>
+                <ul>
+                    <li class="font-semibold">Call Us</li>
+                    <li class="font-bold hover:text-blue-600 cursor-copy">+254-101-453250</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- HOME SECTION -->
+    <section id="home"
+        class="bg-[url('https://i.pinimg.com/736x/30/11/0b/30110b7297a9196c71081a1a934d9387.jpg')] bg-no-repeat bg-cover flex justify-left items-center h-screen mt-20">
+        <div class="bg-white mr-200 ml-10 pt-10 pr-15 pl-15 pb-10 mt-20">
+            <p class="text-blue-600 font-semibold">Your Business Revenue to The Moon</p>
+            <h1 class="text-5xl mb-5 mt-5 font-medium font-serif ">A Corporate Space Odyssey.</h1>
+            <p class="text-1xl">There are many galaxies of growth out there, but only a select few make the leap into
+                orbit. Join the ranks of space pioneers with our expert guidance and mission-ready solutions.</p>
+
+            <button class="bg-blue-500 font-medium text-white mt-5 px-8 py-3 hover:bg-blue-800 "><a
+                    href="https://www.spaceappschallenge.org/" target="_blank" rel="noopener noreferrer">Discover
+                    Now</a></button>
+            <button class="ml-5 bg-white drop-shadow-lg py-3 px-4 hover:text-blue-600"><a href="#services">Explore
+                    Services</a><i class="fa-solid fa-arrow-right-long"></i> </button>
+        </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="pt-40 ml-5">
+
+        <div class="flex justify-between">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
+                <img src="assets/mars.jpg" alt="" class="aspect-video w-200 h-70 rounded-xl">
+                <img src="assets/neptune.jpg" alt="" class="aspect-video w-200 h-70 rounded-xl">
+            </div>
+            <div class=" flex justify-center items-center">
+                <img src="assets/pretty.jpg" alt="" class="aspect-video w-80 h-120 rounded-xl mt-10 ml-5 mb-20">
+                <div class="p-10 pl-25">
+                    <p class=" p-6 pl-0 font-semibold text-blue-600 text-lg">Why Choose NASA?</p>
+                    <p class="text-3xl font-bold mb-10 text-gray-800">Embark on a journey that takes you to the stars
+                        and beyond. At NASA, we don’t just make history; we
+                        create the future.</p>
+                    <h1 class="text-gray-500 text-md font-semibold">It’s a well-established truth that when you dream
+                        big, you reach far. At NASA, we’re dedicated to
+                        turning dreams of space exploration into reality.</h1>
+                    <p class="text-gray-500 text-md font-semibold mt-5"> Building a space program is like choosing a
+                        path to the stars. Just as a spacecraft needs a
+                        clear trajectory, your career at NASA begins with a vision and a purpose. Secure your future
+                        with a mission that matters, where each step forward brings humanity closer to the mysteries of
+                        the universe.</p>
+
+                    <button class="bg-blue-600 text-white font-bold px-8 py-3 mt-5 rounded-xl hover:bg-blue-500"><a
+                            href="https://www.nasa.gov/humans-in-space/chapea/participate/#:~:text=Possess%20a%20master's%20degree*%20in,command%20time%20on%20jet%20aircraft."
+                            target="_blank" rel="noopener noreferrer">Get Started</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICE SECTION -->
+    <section id="services" class="mt-30 bg-gray-100 p-10 pt-30 pb-30">
+        <div class="text-center mb-20 px-75">
+            <p class="mb-2 tracking-wider font-bold text-blue-600 text-lg">Our Services</p>
+            <p class="text-4xl font-bold text-gray-800 pb-5">What We Offer</p>
+            <p class="font-medium text-gray-500 ">At NASA we have a variety of services such as: Space Exploration
+                Programs, Astronaut Training, Scientific Researchs, Earth Observation, Technology Development,
+                International Collaboration.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+                <img src="assets/planet1.png" alt="" class="w-20 h-20 mb-10">
+                <h3 class="text-2xl font-bold mb-2">Space Exploration Programs</h3>
+                <p class="text-gray-500">NASA leads groundbreaking missions to explore distant planets, moons, and
+                    asteroids, expanding humanity's understanding of the cosmos. Join us in pushing the boundaries of
+                    space travel.</p>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+                <img src="assets/planet2.png" alt="" class="w-20 h-20 mb-10">
+                <h3 class="text-xl font-bold mb-2">Astronaut Training</h3>
+                <p class="text-gray-500">Become part of the elite team of astronauts who venture into space. Our
+                    rigorous training prepares you for the challenges of living and working in space.</p>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+                <img src="assets/planet3.png" alt="" class="w-20 h-20 mb-10">
+                <h3 class="text-xl font-bold mb-2">Scientific Researchs</h3>
+                <p class="text-gray-500">NASA conducts cutting-edge research to answer fundamental questions about the
+                    universe. From space weather to dark matter, our discoveries drive scientific progress.</p>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+                <img src="assets/planet4.png" alt="" class="w-20 h-20 mb-10">
+                <h3 class="text-xl font-bold mb-2">Earth Observation</h3>
+                <p class="text-gray-500">Our satellites monitor Earth's climate, weather, and natural resources, helping
+                    to protect our planet. NASA's data is vital for understanding environmental change and managing
+                    resources.</p>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+                <img src="assets/planet5.jpg" alt="" class="w-20 h-20 mb-10">
+                <h3 class="text-xl font-bold mb-2">Technology Development</h3>
+                <p class="text-gray-500">NASA engineers develop innovative technologies that revolutionize space
+                    exploration and have real-world applications. From robotics to propulsion systems, our advancements
+                    shape the future.</p>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+                <img src="assets/planet6.jpg" alt="" class="w-20 h-20 mb-10">
+                <h3 class="text-xl font-bold mb-2">International Collaboration</h3>
+                <p class="text-gray-500">NASA partners with global space agencies to foster international cooperation in
+                    space exploration. Together, we tackle some of the most significant challenges facing humanity. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NASA SECTION: this entire section has to do with nasa and not just the individual sections as they were before
+     we will have the following sections - Nasa Team, Testimonials - Blog -->
+    <section id="nasa" class="pt-30 mx-5">
+        <div class="text-center mb-20 px-80">
+            <p class="mb-2 tracking-wider font-bold text-blue-600 text-lg">Our Team</p>
+            <p class="text-4xl font-bold text-gray-800 pb-5">Our Awesome Team</p>
+            <p class="font-medium text-gray-500 ">We have multiple employees over here at Nasa but these are among the
+                select few who continue to surprise
+                not only us but the public aswell, maybe one day you can become like them</p>
+        </div>
+        <!-- NASA TEAM -->
+        <div class="bg-white">
+            <div class="flex justify-center items-center">
+                <ul class="flex justify-between items-center px-4 ">
+                    <li>
+                        <div class=" gap-x-6 mx-2">
+                            <img class="size-100  rounded-xl" src="assets/Nichole Ayers.jpg" alt="">
+                            <div>
+                                <h3 class="text-2xl font-bold tracking-tight text-gray-900"><a
+                                        href="https://www.nasa.gov/humans-in-space/astronauts/nasa-astronaut-nichole-ayers/"
+                                        target="_blank" rel=" noopener noreferrer" class="hover:text-yellow-600">Nichole
+                                        Ayers</a></h3>
+                                <p class="text-sm/6 font-semibold text-indigo-600">Astronaut</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=" gap-x-6 mx-2">
+                            <img class="size-100 rounded-xl"
+                                src="https://britishartnetwork.org.uk/wp-content/uploads/2022/07/Calvin-Headshot-683x1024.jpg"
+                                alt="">
+                            <div>
+                                <h3 class="text-2xl font-bold tracking-tight text-gray-900"><a
+                                        href="https://science.nasa.gov/people/dr-kate-calvin/" target="_blank"
+                                        rel="noopener noreferrer" class="hover:text-yellow-600">Katherine Calvin</a>
+                                </h3>
+                                <p class="text-sm/6 font-semibold text-indigo-600">Chief Scientist and Senior Climate
+                                    Advisor</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="gap-x-6 mx-2">
+                            <img class="size-100 rounded-xl"
+                                src="https://www.nasa.gov/wp-content/uploads/2024/02/51729618674-f419a85e16-c.jpg"
+                                alt="">
+                            <div>
+                                <h3 class="text-2xl font-bold tracking-tight text-gray-900"><a
+                                        href="https://www.nasa.gov/humans-in-space/astronauts/nasa-astronaut-marcos-berrios/"
+                                        target="_blank" rel="noopener noreferrer" class="hover:text-yellow-600">Marcos
+                                        Berrios</a></h3>
+                                <p class="text-sm/6 font-semibold text-indigo-600">Astronaut</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="gap-x-6 mx-2">
+                            <img class="size-100 rounded-xl" src="assets/kevin-murphy-headshot.webp" alt="">
+                            <div>
+                                <h3 class="text-2xl font-bold tracking-tight text-gray-900"><a
+                                        href="https://science.nasa.gov/people/kevin-murphy/" target="_blank"
+                                        rel="noopener noreferrer" class="hover:text-yellow-600">Kevin Murphy</a></h3>
+                                <p class="text-sm/6 font-semibold text-indigo-600">Chief Science Data Officer</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="Testimonials" class="mt-40 bg-gray-100 pt-30">
+            <div class="text-center mb-20 px-80">
+                <p class="mb-2 tracking-wider font-bold text-blue-600 text-lg">What People Say About Us</p>
+                <p class="text-4xl font-bold text-gray-800 pb-5">Testimonials</p>
+                <p class="font-medium text-gray-500 ">We really enjoy, and value feedback of any sort, whether positive
+                    or negative.</p>
+            </div>
+
+            <div>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                    <figure class="max-w-screen-md mx-auto">
+                        <svg class="h-12 mx-auto mb-3 text-gray-700 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                fill="currentColor" />
+                        </svg>
+                        <blockquote>
+                            <p class="text-2xl font-medium text-gray-900 dark:text-gray-600">This experience has been
+                                both challenging and enriching, providing me with a deeper understanding of space
+                                science and technology. I am very grateful to the dedicated professionals at NASA for
+                                sharing their knowledge and insights which helped hone my abilities during this
+                                semester. As a Project Manager, I was able to lead our team in the development of a
+                                mock-mission with a budget cap of $300 million, aiming to design a rover equipped with
+                                scientific tools to be sent out to Ceres to gather geological data on the dwarf planet.
+                                My team and I were then tasked with developing and presenting a 180 page Preliminary
+                                Design Review for a standing review board. "</p>
+                        </blockquote>
+                        <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                            <img class="w-6 h-6 rounded-full"
+                                src="https://static.wixstatic.com/media/39ff4a_0f86b26ae1d949db89c72586565589e2~mv2.jpeg/v1/crop/x_5,y_75,w_554,h_514/fill/w_328,h_304,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/FullSizeRender%20(1).jpeg"
+                                alt="profile picture">
+                            <div class="flex items-center">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-gray-600">William Hanson</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FORM -->
+    <section class="mt-8 bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+        <form class="space-y-4">
+            <div>
+                <label for="name" class="block text-sm font-md text-grey-700">Name</label>
+                <input type="text"
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <div>
+                <label for="Email" class="block text-sm font-md text-grey-700">Email</label>
+                <input type="text"
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <div>
+                <label for="message" class="block text-sm font-md text-grey-700">Message</label>
+                <textarea rows="4"
+                    class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"></textarea>
+            </div>
+            <div>
+                <label for="how" class="block text-gray-700 font-medium">How Did you find us?</label>
+                <select name="how" id="how"
+                    class="mt-2 p-2 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring focus:border-blue-500"
+                    required>
+                    <option value="">Select an option</option>
+                    <option value="search_engine">Search</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="word_of_mouth">Word of Mouth</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button type="submit"
+                class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-red-600">Submit</button>
+        </form>
+    </section>
+    <!-- FOOTERRR -->
+    <footer class="bg-gray-800 text-white py-1">
+        <div class="container max-w-xl mx-auto px-4 flex justify-between items-center">
+            <p class="text-sm ">&copy; 2025 Zane</p>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-400">Privacy Policy</a></li>
+                <li><a href="#" class="hover:text-gray-400">Terms of Service</a></li>
+            </ul>
+        </div>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#" class="hover:text-red-500"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#" class="hover:text-purple-500"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" class="hover:text-sky-500"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+
+    </footer>
+    <a href="https://demo.tailgrids.com/templates/business/build/" target="_blank" rel="noopener noreferrer"
+    class="text-5xl text-white  bg-gray-800 px-100 ml-20 hover:text-yellow-300">My refernce page</a>
+</body>
+
+</html>
